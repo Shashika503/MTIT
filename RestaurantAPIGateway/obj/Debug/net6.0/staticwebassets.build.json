@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "n6Y30mMOR79NBimnw40JsucstZh6f6ewVu5uJb/xJ6Q=",
+  "Source": "RestaurantAPIGateway",
+  "BasePath": "_content/RestaurantAPIGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

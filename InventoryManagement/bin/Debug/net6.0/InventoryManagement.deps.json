@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "InventoryManagement/1.0.0": {
         "dependencies": {
-          "DeliveryManagement": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.4",
           "Microsoft.EntityFrameworkCore.Design": "7.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.4",

@@ -1,0 +1,247 @@
+﻿{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Orders/get-all-orders",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7227
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Orders/get-all-orders",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Orders/get-order/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7227
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Orders/get-order/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Orders/create-order",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7227
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Orders/create-order",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Orders/update-order/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7227
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Orders/update-order/{id}",
+      "UpstreamHttpMethod": [ "PUT" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Orders/delete-order/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7227
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Orders/delete-order/{id}",
+      "UpstreamHttpMethod": [ "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Suppliers/get-all-suppliers",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7093
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Suppliers/get-all-suppliers",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Suppliers/get-supplier/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7093
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Suppliers/get-supplier/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Suppliers/create-supplier",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7093
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Suppliers/create-supplier",
+      "UpstreamHttpMethod": [ "POST" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Suppliers/update-supplier/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+            {
+              "Host": "localhost",
+              "Port": 7093
+            }
+          ],
+          "UpstreamPathTemplate": "/api/Suppliers/update-supplier/{id}",
+          "UpstreamHttpMethod": [ "PUT" ]
+        },
+        {
+          "DownstreamPathTemplate": "/api/Suppliers/delete-supplier/{id}",
+          "DownstreamScheme": "https",
+          "DownstreamHostAndPorts": [
+            {
+              "Host": "localhost",
+              "Port": 7093
+            }
+          ],
+          "UpstreamPathTemplate": "/api/Suppliers/delete-supplier/{id}",
+          "UpstreamHttpMethod": [ "DELETE" ]
+        },
+        {
+          "DownstreamPathTemplate": "/api/Deliveries/get-all-deliveries",
+          "DownstreamScheme": "https",
+          "DownstreamHostAndPorts": [
+            {
+              "Host": "localhost",
+              "Port": 7172
+            }
+          ],
+          "UpstreamPathTemplate": "/api/Deliveries/get-all-deliveries",
+          "UpstreamHttpMethod": [ "GET" ]
+        },
+        {
+          "DownstreamPathTemplate": "/api/Deliveries/get-delivery/{id}",
+          "DownstreamScheme": "https",
+          "DownstreamHostAndPorts": [
+            {
+              "Host": "localhost",
+              "Port": 7172
+            }
+          ],
+          "UpstreamPathTemplate": "/api/Deliveries/get-delivery/{id}",
+          "UpstreamHttpMethod": [ "GET" ]
+        },
+        {
+          "DownstreamPathTemplate": "/api/Deliveries/create-delivery",
+          "DownstreamScheme": "https",
+          "DownstreamHostAndPorts": [
+            {
+              "Host": "localhost",
+              "Port": 7172
+            }
+          ],
+          "UpstreamPathTemplate": "/api/Deliveries/create-delivery",
+          "UpstreamHttpMethod": [ "POST" ]
+        },
+        {
+          "DownstreamPathTemplate": "/api/Deliveries/update-delivery/{id}",
+          "DownstreamScheme": "https",
+          "DownstreamHostAndPorts": [
+            {
+              "Host": "localhost",
+              "Port": 7172
+            }
+          ],
+          "UpstreamPathTemplate": "/api/Deliveries/update-delivery/{id}",
+          "UpstreamHttpMethod": [ "PUT" ]
+        },
+        {
+          "DownstreamPathTemplate": "/api/Deliveries/delete-delivery/{id}",
+          "DownstreamScheme": "https",
+          "DownstreamHostAndPorts": [
+            {
+              "Host": "localhost",
+              "Port": 7172
+            }
+          ],
+          "UpstreamPathTemplate": "/api/Deliveries/delete-delivery/{id}",
+          "UpstreamHttpMethod": [ "DELETE" ]
+        },
+        {
+          "DownstreamPathTemplate": "/api/InventoryItems/get-all-inventories",
+          "DownstreamScheme": "https",
+          "DownstreamHostAndPorts": [
+            {
+              "Host": "localhost",
+              "Port": 7105
+            }
+          ],
+          "UpstreamPathTemplate": "/api/InventoryItems/get-all-inventories",
+          "UpstreamHttpMethod": [ "GET" ]
+        },
+    {
+      "DownstreamPathTemplate": "/api/InventoryItems/get-inventoryitem/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7105
+        }
+      ],
+      "UpstreamPathTemplate": "/api/InventoryItems/get-inventoryitem/{id}",
+      "UpstreamHttpMethod": [ "GET" ]
+    },
+        {
+          "DownstreamPathTemplate": "/api/InventoryItems/create-inventoryitem",
+          "DownstreamScheme": "https",
+          "DownstreamHostAndPorts": [
+            {
+              "Host": "localhost",
+              "Port": 7105
+            }
+          ],
+          "UpstreamPathTemplate": "/api/InventoryItems/create-inventoryitem",
+          "UpstreamHttpMethod": [ "POST" ]
+        },
+        {
+          "DownstreamPathTemplate": "/api/InventoryItems/update-inventoryitem/{id}",
+          "DownstreamScheme": "https",
+          "DownstreamHostAndPorts": [
+            {
+              "Host": "localhost",
+              "Port": 7105
+            }
+          ],
+          "UpstreamPathTemplate": "/api/InventoryItems/update-inventoryitem/{id}",
+          "UpstreamHttpMethod": [ "PUT" ]
+        },
+        {
+          "DownstreamPathTemplate": "/api/InventoryItems/delete-inventoryitem/{id}",
+          "DownstreamScheme": "https",
+          "DownstreamHostAndPorts": [
+            {
+              "Host": "localhost",
+              "Port": 7105
+            }
+          ],
+          "UpstreamPathTemplate": "/api/InventoryItems/delete-inventoryitem/{id}",
+          "UpstreamHttpMethod": [ "DELETE" ]
+        }
+      ],
+      "GlobalConfiguration": {
+        "BaseUrl": "https://localhost:7239"
+      }
+    }

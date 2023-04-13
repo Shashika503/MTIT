@@ -18,7 +18,7 @@ namespace DeliveryManagement.Controllers
 			_repository = repository;
 		}
 
-		[HttpGet("get-all")]
+		[HttpGet("get-all-deliveries")]
 		public ActionResult<IEnumerable<Delivery>> GetAllDeliveries()
 		{
 			var deliveries = _repository.GetAllDeliveries();

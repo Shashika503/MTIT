@@ -18,7 +18,7 @@ namespace SupplierManagement.Controllers
 			_repository = repository;
 		}
 
-		[HttpGet("get-allsuppliers")]
+		[HttpGet("get-all-suppliers")]
 		public ActionResult<IEnumerable<Supplier>> GetAllSuppliers()
 		{
 			var suppliers = _repository.GetAllSuppliers();
@@ -62,6 +62,7 @@ namespace SupplierManagement.Controllers
 			supplier.Address = supplierUpdateDTO.Address;
 			supplier.Email = supplierUpdateDTO.Email;
 			supplier.ContactPhone = supplierUpdateDTO.ContactPhone;
+			supplier.ContactName = supplierUpdateDTO.ContactName;
 
 			_repository.UpdateSupplier(supplier);
 			_repository.SaveChanges();
